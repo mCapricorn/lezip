@@ -1,0 +1,1 @@
+del /s *.exe *.dll *.obj *.lib *.exp *.res *.pch *.asm *.sdf

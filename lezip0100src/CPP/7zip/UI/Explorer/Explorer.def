@@ -1,0 +1,9 @@
+; leya.def
+
+LIBRARY "leya"
+
+EXPORTS
+  DllCanUnloadNow PRIVATE
+  DllGetClassObject PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
