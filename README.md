@@ -3,9 +3,6 @@ Lezip(压缩解压)
 lezip基于开源软件7-zip。
 针对中国人的使用习惯做了优化。
 
-
-
-
 ### 编译好的安装包
 https://github.com/jifendaren/lezip/setup.exe
 
@@ -16,16 +13,14 @@ https://github.com/jifendaren/lezip/setup.exe
 
 
 
-#### 怎么编译
+### 怎么编译
 lezip采用visual studio 2013编译，采用命令行编译
 打开visual studio环境命令行
 cd lezip0100src\CPP\7zip
 x86运行nmake PLATFORM="x86" SUB_SYS_VER=1
 x64运行nmake PLATFORM="x64"
 ```
-
-
-#### 安装包制作
+### 安装包制作
 安装包使用nsis制作
 ```
 
