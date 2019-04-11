@@ -4,7 +4,7 @@ lezip基于开源软件7-zip。
 针对中国人的使用习惯做了优化。
 
 ### 编译好的安装包
-https://github.com/jifendaren/lezip/setup.zip
+https://github.com/jifendaren/lezip/raw/master/setup.zip
 
 ### Introduction
 * 官方网站：https://www.jifendaren.com
