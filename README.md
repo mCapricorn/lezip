@@ -10,11 +10,11 @@ https://github.com/jifendaren/lezip/setup.zip
 * 官方网站：https://www.jifendaren.com
 
 ### 怎么编译
-lezip采用visual studio 2013编译，采用命令行编译
-打开visual studio环境命令行
-cd lezip0100src\CPP\7zip
-x86运行nmake PLATFORM="x86" SUB_SYS_VER=1
-x64运行nmake PLATFORM="x64"
+* lezip采用visual studio 2013编译，采用命令行编译
+* 打开visual studio环境命令行
+* cd lezip0100src\CPP\7zip
+* x86运行nmake PLATFORM="x86" SUB_SYS_VER=1
+* x64运行nmake PLATFORM="x64"
 
 ### 安装包制作
 安装包使用nsis制作
