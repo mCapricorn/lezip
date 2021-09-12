@@ -1,0 +1,9 @@
+; 21Yasuo.def
+
+LIBRARY "21Yasuo"
+
+EXPORTS
+  DllCanUnloadNow PRIVATE
+  DllGetClassObject PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE

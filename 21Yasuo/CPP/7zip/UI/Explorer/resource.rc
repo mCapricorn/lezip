@@ -1,0 +1,8 @@
+#include "../../MyVersionInfo.rc"
+#include "resource2.rc"
+
+MY_VERSION_INFO_DLL("21Yasuo Shell Extension", "21Yasuo")
+
+#ifndef UNDER_CE
+1 24 MOVEABLE PURE "21Yasuo.dll.manifest"
+#endif

@@ -1,0 +1,55 @@
+[CODE]
+
+[Version]
+Signature = "$Windows NT$"
+Provider = "21Yasuo.com"
+CESignature = "$Windows CE$"
+
+[CEStrings]
+AppName = "21Yasuo"
+InstallDir = %CE1%\%AppName%
+
+[Strings]
+AppVer = "1.00"
+AppDate = "2021-06-30"
+
+[CEDevice]
+; ProcessorType = 2577 ; ARM
+VersionMin = 3.0
+BuildMin = 0.0
+VersionMax = 1000.0
+BuildMax = 0xE0000000
+
+[DefaultInstall]
+CopyFiles = CopyFilesSection,CopyFilesSection.Lang
+AddReg = RegSettings
+CEShortcuts = Shortcuts
+
+[SourceDisksNames]
+1 = ,"Common files",,"."
+2 = ,"Lang files",,"Lang"
+
+[SourceDisksFiles]
+21Yasuo.exe = 1
+7z.sfx = 1
+7zS2.sfx = 1
+ru.txt = 2
+
+[DestinationDirs]
+DefaultDestDir = ,%InstallDir%
+CopyFilesSection = ,%InstallDir%
+CopyFilesSection.Lang = ,"%InstallDir%\Lang"
+Shortcuts = ,%CE11%
+
+[CopyFilesSection]
+21Yasuo.exe
+7z.sfx
+7zS2.sfx
+
+[CopyFilesSection.Lang]
+ru.txt
+
+[RegSettings]
+
+[Shortcuts]
+21Yasuo,0,21Yasuo.exe

@@ -1,0 +1,3 @@
+#include "../../MyVersionInfo.rc"
+
+MY_VERSION_INFO_DLL("21Yasuo Plugin for FAR Manager", "21YasuoFar")
