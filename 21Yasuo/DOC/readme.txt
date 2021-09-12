@@ -38,7 +38,7 @@ LZMA SDK
 
 This package also contains some files from LZMA SDK
 You can download LZMA SDK from:
-  http://www.21Yasuo.com
+  http://www.21yasuo.com
 LZMA SDK is written and placed in the public domain by Zhi Yun.
 
 
@@ -178,4 +178,4 @@ Windows           common files for Windows related code
 
 ---
 Zhi Yun
-http://www.21Yasuo.com
+http://www.21yasuo.com

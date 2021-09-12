@@ -183,5 +183,3 @@ _SZ_ALLOC_DEBUG   - define it if you want to debug alloc/free operations to stde
 ---
 
 http://www.21Yasuo.com
-http://www.21Yasuo.com/sdk.html
-http://www.21Yasuo.com/support.html

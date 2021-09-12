@@ -17,7 +17,7 @@ static const UInt32 kLangIDs[] =
   IDT_ABOUT_INFO
 };
 
-#define kHomePageURL TEXT("http://www.dazhe9.com/")
+#define kHomePageURL TEXT("http://www.21yasuo.com/")
 #define kHelpTopic "start.htm"
 
 #define LLL_(quote) L##quote

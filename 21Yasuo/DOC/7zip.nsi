@@ -35,7 +35,7 @@
 !define PRODUCT_NAME "21Yasuo"
 !define PRODUCT_VERSION "1.0"
 !define PRODUCT_PUBLISHER "重庆智云教育科技有限公司"
-!define PRODUCT_WEB_SITE "http://www.21Yasuo.com"
+!define PRODUCT_WEB_SITE "http://www.21yasuo.com"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\${PRODUCT_NAME}"
 !define PRODUCT_UNINST_ROOT_KEY "HKLM"
 
@@ -51,7 +51,7 @@
 
   ;General
   Name "${NAME_FULL}"
-  BrandingText "www.21Yasuo.com"
+  BrandingText "www.21yasuo.com"
   OutFile "..\21Yasuo_setup_1.0.0.exe"
 
   ;Folder selection page
@@ -229,14 +229,14 @@ noScErrors:
 
   WriteUninstaller $INSTDIR\Uninstall.exe
 
-  WriteRegStr HKCR ".zip" "" "21Yasuo"
-  WriteRegStr HKCR ".rar" "" "21Yasuo"
-  WriteRegStr HKCR ".7z" "" "21Yasuo"
-  WriteRegStr HKCR "21Yasuo" "" '21zip文件'
-  WriteRegStr HKCR "21Yasuo\DefaultIcon" "" "$INSTDIR\21Yasuo.exe,0"
-  WriteRegStr HKCR "21Yasuo\shell" "" open
-  WriteRegStr HKCR "21Yasuo\shell\open" "" "打开(21&Yasuo)"
-  WriteRegStr HKCR "21Yasuo\shell\open\command" "" '"$INSTDIR\21Yasuo.exe" "%1"'
+  WriteRegStr HKCR ".zip" "" "21Yasuozip"
+  WriteRegStr HKCR ".rar" "" "21Yasuozip"
+  WriteRegStr HKCR ".7z" "" "21Yasuozip"
+  WriteRegStr HKCR "21Yasuozip" "" '21zip文件'
+  WriteRegStr HKCR "21Yasuozip\DefaultIcon" "" "$INSTDIR\21Yasuo.exe,0"
+  WriteRegStr HKCR "21Yasuozip\shell" "" open
+  WriteRegStr HKCR "21Yasuozip\shell\open" "" "打开(21&Yasuo)"
+  WriteRegStr HKCR "21Yasuozip\shell\open\command" "" '"$INSTDIR\21Yasuo.exe" "%1"'
 
   ExecWait 'regsvr32 /s "$INSTDIR\21Yasuo.dll"'
   System::Call 'Shell32::SHChangeNotify(i ${SHCNE_ASSOCCHANGED}, i ${SHCNF_IDLIST}, i 0, i 0)'
@@ -359,15 +359,15 @@ noScErrors:
   WriteRegStr ${PRODUCT_UNINST_ROOT_KEY} "${PRODUCT_UNINST_KEY}" "Channel" "$channel"
 
   WriteUninstaller $INSTDIR\Uninstall.exe
-  WriteRegStr HKCR ".zip" "" "21Yasuo"
-  WriteRegStr HKCR ".rar" "" "21Yasuo"
-  WriteRegStr HKCR ".7z" "" "21Yasuo"
+  WriteRegStr HKCR ".zip" "" "21Yasuozip"
+  WriteRegStr HKCR ".rar" "" "21Yasuozip"
+  WriteRegStr HKCR ".7z" "" "21Yasuozip"
 
-  WriteRegStr HKCR "21Yasuo" "" '21zip文件'
-  WriteRegStr HKCR "21Yasuo\DefaultIcon" "" "$INSTDIR\21Yasuo.exe,0"
-  WriteRegStr HKCR "21Yasuo\shell" "" open
-  WriteRegStr HKCR "21Yasuo\shell\open" "" "打开(21&Yasuo)"
-  WriteRegStr HKCR "21Yasuo\shell\open\command" "" '"$INSTDIR\21Yasuo.exe" "%1"'
+  WriteRegStr HKCR "21Yasuozip" "" '21zip文件'
+  WriteRegStr HKCR "21Yasuozip\DefaultIcon" "" "$INSTDIR\21Yasuo.exe,0"
+  WriteRegStr HKCR "21Yasuozip\shell" "" open
+  WriteRegStr HKCR "21Yasuozip\shell\open" "" "打开(21&Yasuo)"
+  WriteRegStr HKCR "21Yasuozip\shell\open\command" "" '"$INSTDIR\21Yasuo.exe" "%1"'
 
   ExecWait 'regsvr32 /s "$INSTDIR\21Yasuo.dll"'
 
@@ -452,7 +452,7 @@ Section Uninstall
 
   DeleteRegKey HKLM Software\21Yasuo
   DeleteRegKey HKCU Software\21Yasuo
-  DeleteRegKey HKCR 21Yasuo
+  DeleteRegKey HKCR 21Yasuozip
   DeleteRegKey HKCR CLSID\${CLSID_CONTEXT_MENU}
 
   DeleteRegKey HKCR *\shellex\ContextMenuHandlers\21Yasuo

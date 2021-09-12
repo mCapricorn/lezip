@@ -324,5 +324,3 @@ So you don't need to catch CNewException, if you call COM interfaces of 21Yasuo.
 ---
 
 http://www.21Yasuo.com
-http://www.21Yasuo.com/sdk.html
-http://www.21Yasuo.com/support.html

@@ -900,9 +900,9 @@ static void WriteShellEx()
   
       MyRegistry_SetString(destKey, L"Publisher", LLL(MY_AUTHOR_NAME));
       
-      MyRegistry_SetString(destKey, L"HelpLink", L"http://www.21Yasuo.com/");
-      MyRegistry_SetString(destKey, L"URLInfoAbout", L"http://www.21Yasuo.com/");
-      MyRegistry_SetString(destKey, L"URLUpdateInfo", L"http://www.21Yasuo.com/");
+      // MyRegistry_SetString(destKey, L"HelpLink", L"http://www.21Yasuo.com/");
+      // MyRegistry_SetString(destKey, L"URLInfoAbout", L"http://www.21Yasuo.com/");
+      // MyRegistry_SetString(destKey, L"URLUpdateInfo", L"http://www.21Yasuo.com/");
       
       RegCloseKey(destKey);
     }
