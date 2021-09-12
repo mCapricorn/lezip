@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+*.vscode
  
 # Build results
  
@@ -15,6 +16,7 @@ x86/
 build/
 [Bb]in/
 [Oo]bj/
+21*.exe
  
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/

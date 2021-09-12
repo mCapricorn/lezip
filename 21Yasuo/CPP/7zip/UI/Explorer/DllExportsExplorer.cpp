@@ -29,8 +29,8 @@ static LPCTSTR const k_ShellExtName = TEXT("21Yasuo Shell Extension");
 static LPCTSTR const k_Approved = TEXT("Software\\Microsoft\\Windows\\CurrentVersion\\Shell Extensions\\Approved");
 
 // {23170F69-40C1-278A-1000-000100020000}
-static LPCTSTR const k_Clsid = TEXT("{919877B6-CEF2-410A-B976-CA1C6C549685}");
-// {919877B6-CEF2-410A-B976-CA1C6C549685}
+static LPCTSTR const k_Clsid = TEXT("{EB447312-D1BE-41A7-8B7F-9EE3AF1E4455}");
+// {EB447312-D1BE-41A7-8B7F-9EE3AF1E4455}
 DEFINE_GUID(CLSID_CZipContextMenu,0xeb447312, 0xd1be, 0x41a7, 0x8b, 0x7f, 0x9e, 0xe3, 0xaf, 0x1e, 0x44, 0x55);
 
 

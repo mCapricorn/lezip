@@ -82,7 +82,7 @@ static LPCWSTR const k_Reg_Path32 = L"Path"
   #define k_Reg_WOW_Flag_32 0
 #endif
 
-#define k_7zip_CLSID L"{919877B6-CEF2-410A-B976-CA1C6C549685}"
+#define k_7zip_CLSID L"{EB447312-D1BE-41A7-8B7F-9EE3AF1E4455}"
 
 static LPCWSTR const k_Reg_CLSID_7zip = L"CLSID\\" k_7zip_CLSID;
 static LPCWSTR const k_Reg_CLSID_7zip_Inproc = L"CLSID\\" k_7zip_CLSID L"\\InprocServer32";

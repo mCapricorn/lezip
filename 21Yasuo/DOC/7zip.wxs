@@ -38,7 +38,7 @@
 <?endif ?>
 
 
-<?define ShellExtId = "{919877B6-CEF2-410A-B976-CA1C6C549685}" ?>
+<?define ShellExtId = "{EB447312-D1BE-41A7-8B7F-9EE3AF1E4455}" ?>
 
 <?define BaseId = "23170F69-40C1-270$(var.CpuId)" ?>
 <?define BaseIdVer = "$(var.BaseId)-$(var.MmHex)-$(var.VerBuild)00" ?>

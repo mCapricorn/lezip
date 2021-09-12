@@ -1,7 +1,7 @@
-#define MY_VER_MAJOR 19
-#define MY_VER_MINOR 00
+#define MY_VER_MAJOR 1
+#define MY_VER_MINOR 0
 #define MY_VER_BUILD 0
-#define MY_VERSION_NUMBERS "19.00"
+#define MY_VERSION_NUMBERS "1.0.0"
 #define MY_VERSION MY_VERSION_NUMBERS
 
 #ifdef MY_CPU_NAME

@@ -1,4 +1,4 @@
-21Yasuo 19.00 Sources
+21Yasuo 1.00 Sources
 -------------------
 
 21Yasuo is a file archiver for Windows. 

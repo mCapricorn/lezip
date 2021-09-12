@@ -17,7 +17,7 @@ using namespace NRegistry;
 // CLISID (and Approved ?) items are separated for 32-bit and 64-bit code.
 // shellex items shared by 32-bit and 64-bit code?
 
-#define k_Clsid_A "{919877B6-CEF2-410A-B976-CA1C6C549685}"
+#define k_Clsid_A "{EB447312-D1BE-41A7-8B7F-9EE3AF1E4455}"
 
 static LPCTSTR const k_Clsid = TEXT(k_Clsid_A);
 static LPCTSTR const k_ShellExtName = TEXT("21Yasuo Shell Extension");
